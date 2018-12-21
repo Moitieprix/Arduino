@@ -53,7 +53,6 @@ void affichage(){
   lcd.setCursor(0, 0);
     lcd.print("Distance :");
    lcd.setCursor(0, 1);
-    // print the number of seconds since reset:
     lcd.print(Distance);
     lcd.print("cm ");
     
@@ -64,7 +63,6 @@ void affichage(){
    lcd.setCursor(0, 0);
     lcd.print("Temperature :");
    lcd.setCursor(0, 1);
-    // print the number of seconds since reset:
     lcd.print(temperature);
     lcd.print(" degres");
    
