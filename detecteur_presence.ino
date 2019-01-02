@@ -65,7 +65,7 @@ void affichage(){
       lcd.print("     Princes");
     
 
-    delay(5000);
+    delay(1500);
     lcd.clear();
 
    lcd.setCursor(0, 0);
@@ -75,7 +75,7 @@ void affichage(){
    lcd.print(" degres");
    
 
-     delay(1500);
+     delay(1000);
      lcd.clear();
     }
 
